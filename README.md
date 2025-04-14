@@ -42,12 +42,3 @@ While that dream now moves to a WebSocket-based architecture, this local prototy
 5. ElevenLabs converts Hope’s reply into voice.
 6. The audio is played back to you using `playsound`.
 7. If you say "goodbye", the loop ends. Otherwise, the conversation continues!
-
----
-
-## 📝 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Enghel12/HopeLoop.git
-cd HopeLoop
