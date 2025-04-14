@@ -19,6 +19,21 @@ While that dream now moves to a WebSocket-based architecture, this local prototy
 
 ---
 
+## ⚠️ Important Note Before You Start
+
+To use this project, **you must bring your own credentials**.  
+This includes:
+
+- A valid **OpenAI API key** (for transcription + GPT-4)
+- A valid **ElevenLabs API key**
+- A **voice model** from your ElevenLabs account (either default or custom)
+- The **voice ID** of that model
+
+> 🔐 No API keys or voice access are included in this repository.  
+> Without your own credentials, the project will not work.
+
+---
+
 ## 🧰 Tech Stack
 
 | Feature               | Tech Used                 |
@@ -42,3 +57,5 @@ While that dream now moves to a WebSocket-based architecture, this local prototy
 5. ElevenLabs converts Hope’s reply into voice.
 6. The audio is played back to you using `playsound`.
 7. If you say "goodbye", the loop ends. Otherwise, the conversation continues!
+
+---
